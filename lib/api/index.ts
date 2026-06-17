@@ -26,6 +26,7 @@ export const googlePlace = axios.create({
 });
 
 export const googlePhoto = axios.create({
-  baseURL:
-    process.env.NEXT_PUBLIC_NEXT_SERVER + "/api" || "http://localhost:3000/api",
+  baseURL: process.env.NEXT_PUBLIC_NEXT_SERVER
+    ? process.env.NEXT_PUBLIC_NEXT_SERVER + "/api"
+    : "http://localhost:3000/api",
 });
