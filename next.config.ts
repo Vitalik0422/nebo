@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  allowedDevOrigins: ["192.168.0.6"],
+  images: {
+    remotePatterns: [{ hostname: "lh3.googleusercontent.com" }],
+  },
 };
 
 export default nextConfig;

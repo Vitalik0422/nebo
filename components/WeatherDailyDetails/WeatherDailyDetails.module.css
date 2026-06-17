@@ -1,0 +1,57 @@
+.dayDetails {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.dayDetailsThumb {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 45px;
+  }
+}
+.dayDetailsHour {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.detailsTitle {
+  display: flex;
+  gap: 10px;
+  @media screen and (min-width: 1440px) {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.detailsText {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    font-size: 16px;
+  }
+}

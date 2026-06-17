@@ -1,0 +1,38 @@
+.weatherForecastSection {
+  padding: 32px 0;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  @media screen and (min-width: 1440px) {
+    padding: 0;
+  }
+}
+
+.weatherForecastContainer {
+  padding: 0 32px;
+  @media screen and (min-width: 1440px) {
+    padding: 0;
+  }
+}
+.weatherForecastWrapper {
+  background: #dfae53cc;
+  border-radius: 40px;
+  padding: 11px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 262px;
+}
+.weatherForecastInterval {
+  padding: 10px 35px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.intervalText {
+  font-size: 14px;
+}
+
+.hourForecastWrapper {
+  display: flex;
+  justify-content: center;
+}

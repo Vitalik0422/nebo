@@ -1,0 +1,17 @@
+.weatherDaySliderSection {
+  padding-top: 32px;
+  grid-column: 3/4;
+  grid-row: 1/4;
+  @media screen and (min-width: 1440px) {
+    width: 324px;
+    padding: 0;
+  }
+}
+.weatherDaySliderContainer {
+  @media screen and (min-width: 1440px) {
+    width: 324px;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+  }
+}

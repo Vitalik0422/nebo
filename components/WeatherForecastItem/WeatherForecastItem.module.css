@@ -1,0 +1,17 @@
+.dayForecastIcon {
+  width: 24px;
+  height: 24px;
+}
+.forecastDayName {
+  font-size: 14px;
+  @media screen and (min-width: 768px) {
+    &:hover {
+      font-size: 16px;
+      cursor: pointer;
+    }
+    &:hover + .dayForecastIcon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
